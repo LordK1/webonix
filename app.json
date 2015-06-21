@@ -1,0 +1,12 @@
+{
+  "name": "Webonix",
+  "description": "A simple Ionic web application for Android or IOS that deployed on Heroku",
+  "repository": "https://github.com/lordk1/webonix",
+  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
+  "keywords": [
+    "NodeJS",
+    "express",
+    "ionic",
+    "static"
+  ]
+}
