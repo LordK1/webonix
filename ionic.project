@@ -1,4 +1,8 @@
 {
   "name": "Webonix",
-  "app_id": ""
+  "app_id": "",
+  "watchPatterns":[
+    "www/js/*",
+    "!www/css/**/*"
+  ]
 }
