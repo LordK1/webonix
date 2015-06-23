@@ -5,7 +5,8 @@ var express = require('express');
 var app = express();
 
 
-app.use(express.static('www'));
+app.use(express.static(__dirname + "/www"));
+
 
 // CORS (Cross-Origin Resource Sharing ) headers to support Cross-Site Http requests
 app.all('*', function (request, response, next) {
@@ -24,5 +25,5 @@ var server = app.listen(app.get('port'), function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('Tiamoter running at http://%s:%s', host, port);
+    console.log('Webonix running at http://%s:%s', host, port);
 });
